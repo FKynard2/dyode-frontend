@@ -5,11 +5,32 @@
   justify-content: space-between;
   align-items: flex-end;
 
-  .meat {
-    display: none;
+  @media only screen and (max-width: 768px) {
+    padding: 14px 20px 4px;
 
-    @media only screen and (max-width: 650px) {
-      display: block;
+    .logo {
+      .meat {
+        padding-bottom: 5px;
+      }
+
+      .logo-image {
+        width: 55.44px;
+        height: 46px;
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    .meat {
+      display: none;
+
+      @media only screen and (max-width: 768px) {
+        display: block;
+      }
     }
   }
 
@@ -17,12 +38,43 @@
     display: flex;
     gap: 59px;
     padding-bottom: 15px;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .open {
+      display: grid;
+      position: absolute;
+      top: 110px;
+      left: 0;
+      padding: 16px 0;
+      background-color: var(--green);
+      width: 100%;
+
+      gap: 15px;
+
+      a {
+        font-size: 16px;
+        text-align: left;
+        margin-left: 36px;
+      }
+    }
   }
 
   .tool {
     display: flex;
     gap: 30px;
     padding-bottom: 20px;
+    align-items: center;
+
+    @media only screen and (max-width: 768px) {
+      padding-bottom: 0;
+      align-self: center;
+    }
   }
 
   a {
