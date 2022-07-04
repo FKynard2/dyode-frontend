@@ -1,5 +1,7 @@
 [
   {
+    //I would change this name to just new arrivals instead of Show New Arrivals
+    // Also this says shop on figma but says show here
     "title": "Show New Arrivals",
     "subtitle": "Our coolest new items are waiting for you!",
     "color": "green",
