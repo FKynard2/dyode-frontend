@@ -6,7 +6,7 @@ import user from 'assets/header/user.svg'
 import cart from 'assets/header/cart.svg'
 
 import './index.scss'
-
+// I would add a mega menu to the header on hover for each of the menu Items and give product sub categories
 const Header: React.FC = () => {
   const [isOpen, setOpen] = useState(false)
 
