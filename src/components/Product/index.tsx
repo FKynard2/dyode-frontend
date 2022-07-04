@@ -1,7 +1,7 @@
 import product from 'constants/product.json'
 import { useEffect, useState } from 'react'
 import './index.scss'
-
+// I would have 3 items in the carousel instead of 3 to declutter the page. 
 const Product: React.FC = () => {
   const products: any[] = []
   product.forEach(item => {
