@@ -4,7 +4,7 @@ import minus from 'assets/footer/minus.svg'
 import plus from 'assets/footer/plus.svg'
 import './index.scss'
 import { useState } from 'react'
-
+// I would space out the content more because there is a big empty space on the footer but just on the desktop version and center it on the mobile
 const Footer: React.FC = () => {
   const [isOpen, setOpen] = useState(-1)
 
