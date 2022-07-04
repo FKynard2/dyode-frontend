@@ -6,6 +6,7 @@
     "image": "hero01.png"
   },
   {
+    // I would change this to Best sellers
     "title": "Our Fave Tees",
     "subtitle": "Shop all of our favorites.",
     "color": "white",
