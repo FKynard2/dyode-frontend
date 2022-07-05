@@ -1,6 +1,7 @@
 [
   {
-    "title": "Show New Arrivals",
+    // changed the title to match the figma design to say Shop and not show
+    "title": "Shop New Arrivals",
     "subtitle": "Our coolest new items are waiting for you!",
     "color": "green",
     "image": "hero01.png"
