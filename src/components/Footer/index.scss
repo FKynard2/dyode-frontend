@@ -14,14 +14,16 @@
       margin-top: 21px;
     }
   }
-
+//changed the display to space out evenly for the footer to fill the empty space
   .services {
     display: flex;
     gap: 92px;
     width: 100%;
+    justify-content: space-evenly;
 
     @media only screen and (max-width: 768px) {
-      display: grid;
+      display: flex;
+      flex-direction: column;
       gap: 0px;
     }
 
