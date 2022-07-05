@@ -1,6 +1,7 @@
 import product from 'constants/product.json'
 import { useEffect, useState } from 'react'
 import './index.scss'
+import Title from "components/title";
 
 const Product: React.FC = () => {
   const products: any[] = []
@@ -37,10 +38,10 @@ const Product: React.FC = () => {
     setCarouselItems(copy);
   }
 
-
+//Changed the title with the other file and imported it here.
   return (
     <div className="product">
-      <div className='header'>Shop New Arrivals</div>
+      <Title />
       <div className="carouselwrapper module-wrapper">
         <div className="ui">
           <button onClick={() => setMoveClass('next')} className="prev">
