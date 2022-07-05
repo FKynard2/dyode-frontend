@@ -79,10 +79,11 @@
         &:focus {
           outline: none;
         }
-
+// Added a display none for the input on the mobile to match the figma design
         @media only screen and (max-width: 768px) {
           padding: 8px 17px;
           font-size: 16px;
+          display:none;
         }
       }
 
